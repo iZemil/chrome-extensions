@@ -1,0 +1,23 @@
+{
+    "name": "chrome-extensions",
+    "version": "1.0.0",
+    "description": "chrome extensions api",
+    "main": "src/index.js",
+    "scripts": {
+        "build": "./node_modules/.bin/babel src --out-dir dist"
+    },
+    "repository": {
+        "url": "https://github.com/iZemil/chrome-extensions"
+    },
+    "keywords": [
+        "chrome",
+        "extension",
+        "api"
+    ],
+    "author": "zemil",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.4.0"
+    }
+}
